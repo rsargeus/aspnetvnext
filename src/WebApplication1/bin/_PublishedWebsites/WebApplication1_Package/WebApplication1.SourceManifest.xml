@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\Robert\AppData\Local\Temp\2\AspNetPublish\PackageTemp\WebApplication1-87\wwwroot\" managedRuntimeVersion="v4.0" />
+  <setAcl path="C:\Users\Robert\AppData\Local\Temp\2\AspNetPublish\PackageTemp\WebApplication1-87\wwwroot\" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\Robert\AppData\Local\Temp\2\AspNetPublish\PackageTemp\WebApplication1-87\wwwroot\" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>
