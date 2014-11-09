@@ -4,7 +4,7 @@ using Microsoft.AspNet.Http;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Routing;
 using Microsoft.AspNet.Security.Cookies;
-using Microsoft.Data.Entity;
+//using Microsoft.Data.Entity;
 using Microsoft.Framework.ConfigurationModel;
 using Microsoft.Framework.DependencyInjection;
 using WebApplication1.Models;
@@ -28,10 +28,10 @@ namespace WebApplication1
                     .AddSqlServer();
 
                 // Configure DbContext
-                services.SetupOptions<DbContextOptions>(options =>
-                {
-                    options.UseSqlServer(configuration.Get("Data:DefaultConnection:ConnectionString"));
-                });
+                //services.SetupOptions<DbContextOptions>(options =>
+                //{
+                //    options.UseSqlServer(configuration.Get("Data:DefaultConnection:ConnectionString"));
+                //});
                 
                 // Add Identity services to the services container
                 services.AddIdentitySqlServer<ApplicationDbContext, ApplicationUser>()
